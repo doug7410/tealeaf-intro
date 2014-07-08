@@ -5,8 +5,9 @@ puts "Question 1:"
   last_name = gets.chomp
 
 puts "\nQuestion 3:"
-  puts "My Original Answer\n"
+  puts "My Original Answer:\n"
   puts "#{first_name * 10}\n\n"
+  puts "\n Correct Solution:"
   10.times do
    puts first_name
   end
