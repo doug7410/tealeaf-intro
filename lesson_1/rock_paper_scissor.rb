@@ -1,3 +1,7 @@
+#
+#
+#
+#
 require 'pry'
 
 def say(msg)
@@ -22,24 +26,13 @@ def game(user_selection,computer_selection)
   end
   puts "\n#{result}"
 end
-
 puts "\nWelcome to rock paper scissors you will be playing against the mighty Hal-9000.\n\n"
-
 user_selection = ""
-
 say("Enter your name")
-
 player1 = gets.chomp
-
 while user_selection != 4
-  
-
   say("Select a  1 = rock  2 = scissors  3 = paper 4 = exit game")
-
   user_selection = gets.chomp.to_i
-
   computer_selection = rand(1..3)
-
-
   game(user_selection,computer_selection)
 end
