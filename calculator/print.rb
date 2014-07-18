@@ -1,4 +1,6 @@
 
+require 'pry'
+
 puts "\n======================================================================="
 puts "Welcome to the awesome simple calculator where calculations are made with <3.\n"
 puts "======================================================================="
@@ -11,7 +13,7 @@ while
   operation = ''
   puts "\n\nWhat do want to do? \n\n"
   puts "1) add   2) subtract   3) multiply   4) divide   5) exit program"
-  print "\nPlease select mathematical operation >> "
+  print "\nlPease select mathematical operation >> "
   operation = gets.chomp
   if operation.to_i == 5
     puts "\n\nThank you for using awesome simple calculator!\n\n"
